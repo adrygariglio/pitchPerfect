@@ -5,3 +5,12 @@ dist
 node_modules
 .DS_Store
 _graphic/UI.sketch
+firebase.json
+.firebaserc
+.firebase/hosting.0.cache
+y/bundle.8665ab974c8194ab281a.js
+y/bundle.8665ab974c8194ab281a.js.map
+y/index.html
+y/public/.gitkeep
+y/styles/bundle.css
+y/styles/bundle.css.map

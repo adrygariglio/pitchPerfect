@@ -10,16 +10,26 @@ promise.then(
 //Pitch variables
 let targetCustomer = [
       'i cani',
+      'i pianisti',
       'i tirocinanti',
+      'le melanzane',
       'i poveri',
-      'i tecnci informatici',
+      'i tecnici informatici',
       'i transformer',
+      'gli architetti',
       'le Alaska Tunderfuck 500'];
 
 let customerNeed = [
       'fanno cose',
+      'che poi hanno fatto design',
+      'volgiono fare un PhD',
+      'credono che two is better than one',
       'hanno poco tempo',
       'hanno problemi di comunicazione',
+      'cercano se stessi',
+      'hanno un contratto da pochi mesi',
+      'si spulciano il naso',
+      'hanno il pancino delicato',
       'credono in Dio',
       'hanno 5 dita'];
 
@@ -27,22 +37,34 @@ let serviceName = [
       'Colopax',
       'Etrox',
       'Primps',
-      'Trupps'];
+      'Trupps',
+      'Pippapau',
+      'BugFoot',
+      'Allocatoz',
+      'Indices',
+      'SheLSD'];
 
 let marketCategory = [
-      'applicazione web',
-      'drone',
-      'pedalò',
-      'collare',
-      'innovazione fotonica',
-      'cosa',
-      'machine learning in the brain'];
+      'un\'applicazione web',
+      'un drone',
+      'un pedalò',
+      'un collare',
+      'un\'innovazione fotonica',
+      'un robot',
+      'un carrello',
+      'uno use case che non centra niente',
+      'un algoritmo',
+      'un machine learning in the brain'];
 
 let oneKeyBenefit = [
-    'evita collisioni tra umani',
-    'risolve la fame nel mondo',
-    'aumenta la consapevolezza',
-    'fa cose'];
+      'evita collisioni tra umani',
+      'ti manda un vocale di 10 minuti',
+      'risolve la fame nel mondo',
+      'aumenta la consapevolezza',
+      'fa suonare un pianoforte con la mente',
+      'prepara i workmeter',
+      'assolve dai peccati',
+      'lampeggia'];
 
 //DOM variables
 let textArea = document.getElementById('text-area'),
@@ -64,5 +86,5 @@ function showPitches() {
   let randomOneKeyBenefitIdx = drawIndex(oneKeyBenefit.length);
 
   textArea.innerText =
-          `Per ${targetCustomer[randomTargetCustomerIdx]} che ${customerNeed[randomCustomerNeedIdx]}, ${serviceName[randomServiceNameIdx]} è un ${marketCategory[randomMarketCategoryIdx]} che ${oneKeyBenefit[randomOneKeyBenefitIdx]}`;
+          `Per ${targetCustomer[randomTargetCustomerIdx]} che ${customerNeed[randomCustomerNeedIdx]}, ${serviceName[randomServiceNameIdx]} è ${marketCategory[randomMarketCategoryIdx]} che ${oneKeyBenefit[randomOneKeyBenefitIdx]}`;
 }
