@@ -1,0 +1,66 @@
+.bg {
+  background: #1e5799;
+  background: -moz-linear-gradient(top,  #004E92 0%, #000428 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#004E92), color-stop(100%,#000428));
+  background: -webkit-linear-gradient(top,  #004E92 0%,#000428 100%);
+  background: -o-linear-gradient(top,  #004E92 0%,#000428 100%);
+  background: -ms-linear-gradient(top,  #004E92 0%,#000428 100%);
+  background: linear-gradient(to bottom,  #004E92 0%,#000428 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004E92', endColorstr='#000428',GradientType=0 );
+  background-attachment: fixed;
+}
+
+.lottieLogo {
+  display:block;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+
+.subtitle {
+  font-size: 13px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bottone {
+  font-size: 13px;
+  font-weight: 300;
+  background-color: white;
+  border: 0;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+.idea {
+  line-height: 130%;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 992px) {
+
+  .idea {
+    font-size: 34px;
+    font-weight: 100;
+    line-height: 200%;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+}

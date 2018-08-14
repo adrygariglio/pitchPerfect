@@ -1,12 +1,20 @@
 import '../styles/index.scss';
+import $ from 'jquery';
+
+let promise = $.get("http://5b72eacf414e970014304b0f.mockapi.io/V1/users");
+promise.then(
+  data => console.log('success: ', data),
+  error => console.log('error: ', error)
+);
 
 //Pitch variables
 let targetCustomer = [
-      'cani',
-      'tirocinanti',
-      'poveri',
-      'tecnci informatici',
-      'quelli li'];
+      'i cani',
+      'i tirocinanti',
+      'i poveri',
+      'i tecnci informatici',
+      'i transformer',
+      'le Alaska Tunderfuck 500'];
 
 let customerNeed = [
       'fanno cose',
@@ -19,8 +27,7 @@ let serviceName = [
       'Colopax',
       'Etrox',
       'Primps',
-      'Trupps',
-      'Cosa'];
+      'Trupps'];
 
 let marketCategory = [
       'applicazione web',
